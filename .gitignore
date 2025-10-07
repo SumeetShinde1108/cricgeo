@@ -1,0 +1,8 @@
+/.env
+/.venv/
+/.idea/misc.xml
+/.idea/.gitignore
+/.idea/cricgeo.iml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
