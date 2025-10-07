@@ -217,7 +217,7 @@ class Inning(models.Model):
 
 class Over(models.Model):
     """Represents a single over within an inning."""
-    inning = models.ForeignKey(Inning, on_delete=models.CASCADE, related_name="overs")
+    inning = models.ForeignKey(Inning, on_delete=models.CASCADE, related_name="over_set")
     number = models.PositiveSmallIntegerField()
     bowler = models.ForeignKey(Player, on_delete=models.SET_NULL, null=True, blank=True)
     start_time = models.DateTimeField(blank=True, null=True)
