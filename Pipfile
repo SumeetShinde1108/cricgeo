@@ -8,6 +8,10 @@ django = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
 python-dotenv = "*"
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+ipython = "*"
 
 [dev-packages]
 
